@@ -11,16 +11,46 @@
   h1 {font-family:courier; font-size:48px; background-color:purple; border:4px solid white; padding:8px; margin:6px; color:white; text-align:center;}
   h2 {font-family:courier; font-size:32px; background-color:white; color:purple;} 
   p {font-family:americantypewriter; font-size:14px; background-color:white; margin:4px; color:purple;}
-  #AuthorInformation {font-size:15px; background-color:rgba(170, 128, 212, 0.60); color:purple; border:4px solid purple; padding:3px; text-align:right;}
+  th {font:size:15px; background-color:rgba(170, 128, 212, 0.60); color:purple; border:1px solid white; padding:3px; text-align:justified;}
+  td {text align:justified;}
+  #AuthorInformation {font-size:15px; background-color:rgba(170, 128, 212, 0.60); color:purple; border:2px solid purple; padding:3px; text-align:right;}
   </style>
-  <h3 id="AuthorInformation">Victor Lam<br>Shawsheen Valley Technical High School<br>Billerica, MA 01821</h3>
+  <table style="text-align:right>
+  <colgroup>
+  <col span="1" style="color:white; font-size:15px; background-color:black; color:white, border: 1px solid white; padding:3px;"}
+  </colgroup>
+  <tr>
+  <th><strong>Contributors</strong></th>
+  <th>Victor Lam</th>
+  <th>Janice Lam</th>                                        
+  </tr>
+  <tr>
+  <td><strong>Rank</strong></td>
+  <td style="text-align:center; color:rgba(240, 50, 12, 0.92);">Author</td>
+  <td style="text-align:center; color:rgba(50, 112, 9, 0.87);">Writer</td>
+  </tr>
+  <tr>
+  <td><strong>Email</strong></td>
+  <td>- School Email Not Yet Identified-</td>
+  <td>-Rather Not Say-</td>
+  </tr>                       
+  </table>
   <h3 style="font-size:16;color:purple;">Views</h3>
   <a href="http://www.cutercounter.com/" target="_blank"><img src="http://www.cutercounter.com/hit.php?id=25295&nd=6&style=104" border="0" alt="web counter"></a>
   </head>
   <body>
   <h1>Main Stream</h1>
   <h2>Welcome!</h2>
-  <p>Welcome to my new blog. I have designed this HTML website to give a better understanding of unanswered and often unnoticed questions in today's changing society. I'm hoping that my writing can reach out to anyone who reads it. My website works like this: I post a question and give my perspective on its answer. I accept any feedback on what questions you want me to answer as long as it doesn't afflict one of these humors: it offends me or any other student, if it is discriminatory towards any audience, if it is sexually explicit, or if it depicts any religious content, as that is a touchy subject.</p> 
+  <p>Welcome to my new blog. I have designed this HTML website to give a better understanding of unanswered and often unnoticed questions in today's changing society. I'm hoping that my writing can reach out to anyone who reads it. My website works like this: I post a question and give my perspective on its answer. I accept any feedback on what questions you want me to answer as long as it doesn't afflict one of these humors: it offends me or any other student, if it is discriminatory towards any audience, if it is sexually explicit, or if it depicts any religious content, as that is a touchy subject.<br><br>Victor Lam</p> 
+  <!-- Comment Box Code Encased in TagName <form> -->
+  <form action="/html/tags/html_form_tag_action.cfm" method="post" style="width:400px; height:100px;">
+  <div>
+  <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:10px;">
+  Any Feedback? (Comment Box Is Still In Development)
+  </textarea>
+  </div>
+  <input type="submit" value="Submit">
+  </form>
   </body>
   </html>
   
